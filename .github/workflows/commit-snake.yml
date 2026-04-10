@@ -30,7 +30,7 @@ jobs:
             #  - color_background:  Color of the background (for gif only)
             outputs: |
               dist/github-snake.svg?color_snake=#E34027&color_dots=#ebedf0,#c7d4f2,#8faee6,#3f64b8,#182749
-              dist/github-snake-dark.svg?palette=github-dark&color_snake=#E34027
+              dist/github-snake-dark.svg?palette=github-dark&color_snake=#E34027&color_dots=#0d1117,#1b2a4a,#2f4f8f,#4c78d6,#8fb3ff
           env: 
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             
